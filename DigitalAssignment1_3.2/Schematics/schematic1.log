@@ -1,0 +1,32 @@
+LTspice 24.1.4 for Windows
+Circuit: C:\Users\User\OneDrive\Desktop\workspace\DigitalAssignment\Schematics\schematic1.net
+Start Time: Tue Sep  9 21:26:05 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+C:\Users\User\OneDrive\Desktop\workspace\DigitalAssignment\Schematics\schematic1.net(8): Limiting rise time to 0.0005.
+
+V1 A 0 PULSE(0 5 0 0 0 5ms 10ms 5)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\User\OneDrive\Desktop\workspace\DigitalAssignment\Schematics\schematic1.net(8): Limiting fall time to 0.0005.
+
+V1 A 0 PULSE(0 5 0 0 0 5ms 10ms 5)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\User\OneDrive\Desktop\workspace\DigitalAssignment\Schematics\schematic1.net(9): Limiting rise time to 0.0004.
+
+V2 B 0 PULSE(0 5 0 0 0 6ms 10ms 5)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\User\OneDrive\Desktop\workspace\DigitalAssignment\Schematics\schematic1.net(9): Limiting fall time to 0.0004.
+
+V2 B 0 PULSE(0 5 0 0 0 6ms 10ms 5)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.181 seconds.
+
+Files loaded:
+C:\Users\User\OneDrive\Desktop\workspace\DigitalAssignment\Schematics\schematic1.net
+C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.bjt
+
